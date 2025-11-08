@@ -51,7 +51,7 @@ main {
 }
 
 .navbar .nav-link {
-  color: black !important;
+  color: white !important;
   transition: color 0.3s;
 }
 
@@ -181,7 +181,7 @@ main {
 
 .fp-card .card-body {
   padding: 1.6rem;
-  overflow: visible;
+  overflow: visible !important;
 }
 
 /* Headings inside fp section */
@@ -1181,7 +1181,7 @@ img {
             grid-template-columns: 1fr 1fr;
             gap: 40px;
             align-items: center;
-            background: gray;
+            background: white;
             padding: 40px;
             border-radius: 12px;
             box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
@@ -1205,7 +1205,7 @@ img {
 
         .history-text h3 {
             font-size: 2rem;
-            color: white;
+            color: #2c3e50;
             margin-bottom: 20px;
             position: relative;
             padding-bottom: 10px;
@@ -1223,7 +1223,7 @@ img {
 
         .history-text p {
             font-size: 1rem;
-            color: #fff;
+            color: #555;
             line-height: 1.8;
             text-align: justify;
         }
@@ -1268,3 +1268,4 @@ img {
                 padding: 20px 15px;
             }
         }
+        
