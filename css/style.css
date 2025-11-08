@@ -1060,3 +1060,100 @@ img {
   word-wrap: break-word;
   white-space: normal;
 }
+ 
+/* ===== Mission & Vision Section ===== */
+.mission-vision {
+  position: relative;
+  background: linear-gradient(rgba(13, 13, 13, 0.7), rgba(13, 13, 13, 0.7)),
+    url('https://images.unsplash.com/photo-1560185127-6ed189bf02ef?auto=format&fit=crop&w=1600&q=80') center/cover no-repeat;
+  color: #fff;
+  padding: 80px 20px;
+  font-family: 'Poppins', sans-serif;
+  overflow: hidden;
+}
+
+/* Optional semi-transparent overlay for depth */
+.mission-vision .overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.4);
+  z-index: 0;
+}
+
+.mission-vision .container {
+  position: relative;
+  z-index: 2;
+  max-width: 1100px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.mission-vision h2 {
+  font-size: 2.5rem;
+  color: #f8f9fa;
+  margin-bottom: 60px;
+  font-weight: 600;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+
+.mission-vision .content-box {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 40px;
+}
+
+.mission-vision .card {
+  background: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(8px);
+  border-radius: 15px;
+  padding: 40px 30px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.3);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  animation: fadeUp 1.2s ease both;
+}
+
+.mission-vision .card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 15px 30px rgba(0, 0, 0, 0.4);
+}
+
+.mission-vision .icon {
+  font-size: 3rem;
+  margin-bottom: 15px;
+}
+
+.mission-vision h3 {
+  font-size: 1.6rem;
+  color: #ffffff;
+  margin-bottom: 15px;
+  font-weight: 500;
+}
+
+.mission-vision p {
+  font-size: 1rem;
+  color: #e0e0e0;
+  line-height: 1.8;
+}
+
+/* Responsive Layout */
+@media (max-width: 900px) {
+  .mission-vision .content-box {
+    grid-template-columns: 1fr;
+  }
+}
+
+/* Fade-up animation */
+@keyframes fadeUp {
+  from {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
