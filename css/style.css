@@ -51,7 +51,7 @@ main {
 }
 
 .navbar .nav-link {
-  color: white !important;
+  color: black !important;
   transition: color 0.3s;
 }
 
@@ -1181,7 +1181,7 @@ img {
             grid-template-columns: 1fr 1fr;
             gap: 40px;
             align-items: center;
-            background: white;
+            background: gray;
             padding: 40px;
             border-radius: 12px;
             box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
@@ -1205,7 +1205,7 @@ img {
 
         .history-text h3 {
             font-size: 2rem;
-            color: #2c3e50;
+            color: #ffffff;
             margin-bottom: 20px;
             position: relative;
             padding-bottom: 10px;
@@ -1223,7 +1223,7 @@ img {
 
         .history-text p {
             font-size: 1rem;
-            color: #555;
+            color: #fff;
             line-height: 1.8;
             text-align: justify;
         }
