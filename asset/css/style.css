@@ -1525,25 +1525,7 @@ img {
         .price-section {
             text-align: right;
         }
- .property-section{
-  
-            .history-content {
-                padding: 20px 15px;
-            }
-        }* {
-  margin: 0;
-  padding: 0;
-}
 
-.property-section {
-  width: 100vw;
-  height: 100vh;
-  max-width: 100%;
-  background: center / cover no-repeat url("https://www.google.com/imgres?q=properties%20images&imgurl=https%3A%2F%2Fcdn.dp.ae%2Fpictures%2Fa0c427ee-528d-4611-818a-9c12b76d5e45Image07_Banner_1920x800-min.jpg%3Fmetadata%3Dtrue%26quality%3D85&imgrefurl=https%3A%2F%2Fwww.dp.ae%2F&docid=26d3V1Ah1nwrrM&tbnid=hlsXU9CGPHt89M&vet=12ahUKEwjJg9jSsY6RAxUJMVkFHV1cBHQQM3oECHcQAA..i&w=1920&h=800&hcb=2&ved=2ahUKEwjJg9jSsY6RAxUJMVkFHV1cBHQQM3oECHcQAA");
-  position: relative
-}
- 
- 
         .price-label {
             color: #666;
             font-size: 14px;
