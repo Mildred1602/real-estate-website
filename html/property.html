@@ -3,41 +3,42 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Home in Merrick Way - Property Details | PrimeEdge Realty</title>
+    <meta name="description" content="Discover this beautiful 3-bedroom, 3-bathroom home in Merrick Way, Miami. Features spacious living areas, modern kitchen, and pool. $540,000.">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"/>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.0/font/bootstrap-icons.css" rel="stylesheet" />
     <link rel="stylesheet" href="../css/style.css">
-    
 </head>
-<body>
 <body>
     <header>
    
 <!-- Navbar -->
 <nav class="navbar navbar-expand-lg navbar-light">
-        <!-- ✅ Logo image -->
-        <a class="navbar-brand fw-bold" href="#">
-            <img src="../asset/img/logo-removebg-preview.png" alt="Logo">
+    <div class="container">
+        <!-- Logo image -->
+        <a class="navbar-brand fw-bold" href="index.html" aria-label="PrimeEdge Realty Group Home">
+            <img src="../asset/img/logo-removebg-preview.png" alt="PrimeEdge Realty Group Logo">
         </a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navMenu">
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navMenu" aria-controls="navMenu" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navMenu">
-            <ul class="navbar-nav ms-auto align-items-lg-center" style="color: aliceblue;">
+            <ul class="navbar-nav ms-auto align-items-lg-center">
                 <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+                <li class="nav-item"><a class="nav-link" href="about.html">About Us</a></li>
                 <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown">Real Estate</a>
+                    <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown" role="button" aria-expanded="false">Real Estate</a>
                     <ul class="dropdown-menu">
-                        <li><a class="dropdown-item" href="#">List Layout</a></li>
-                        <li><a class="dropdown-item" href="#">Grid Layout</a></li>
-                        <li><a class="dropdown-item" href="#">Agents</a></li>
+                        <li><a class="dropdown-item" href="real-estate.html">List Layout</a></li>
+                        <li><a class="dropdown-item" href="real-estate.html">Grid Layout</a></li>
+                        <li><a class="dropdown-item" href="real-estate.html">Agents</a></li>
                     </ul>
                 </li>
-                <li class="nav-item"><a class="nav-link" href="#">Property</a></li>
+                <li class="nav-item"><a class="nav-link active" href="property.html" aria-current="page">Property</a></li>
                 <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
-                <li class="nav-item"><a class="nav-link" href="#">About Us</a></li>
                 <li class="nav-item"><a class="nav-link" href="#">Blog</a></li>
                 <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown">Services</a>
+                    <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown" role="button" aria-expanded="false">Services</a>
                     <ul class="dropdown-menu">
                         <li><a class="dropdown-item" href="#">Buying</a></li>
                         <li><a class="dropdown-item" href="#">Selling</a></li>
@@ -46,33 +47,33 @@
                 </li>
                 <!-- Phone + Login buttons -->
                 <li class="nav-item d-none d-lg-block ms-3">
-                    <a class="nav-link btn btn-outline-light" href="tel:+123456789">+1-234-567-89</a>
+                    <a class="nav-link btn btn-outline-light" href="tel:+123456789" aria-label="Call us at +1-234-567-89">+1-234-567-89</a>
                 </li>
                 <li class="nav-item d-none d-lg-block ms-2">
-                    <a class="nav-link btn btn-danger" href="#">Login</a>
+                    <a class="nav-link btn btn-danger" href="LOGIN.HTML">Login</a>
                 </li>
             </ul>
         </div>
     </div>
 </nav>
-<!-- HERO IMAGES -->
-<div id="container">
+<!-- HERO SECTION -->
+<section id="container" aria-label="Property Details Hero Section">
   <div id="hero-text">
-    <h1>
-    About Us
-  </h1>
-</div>
-  <div id="overlay">
-    
+    <h1>Property Details</h1>
   </div>
-</div>
+  <div id="overlay"></div>
+</section>
 </header>
+
 <main>
-<div class="breadcrumb">
-        <a href="#">Home</a>
+    <!-- Breadcrumb Navigation -->
+    <nav class="breadcrumb" aria-label="Breadcrumb">
+        <a href="index.html">Home</a>
         <span>›</span>
         <a href="#">Miami</a>
-    </div>
+        <span>›</span>
+        <span aria-current="page">Home in Merrick Way</span>
+    </nav>
 
     <div class="header-section">
         <div class="property-info">
@@ -85,35 +86,36 @@
         </div>
     </div>
 
-    <div class="gallery-container">
+    <!-- Property Gallery -->
+    <section class="gallery-container" aria-label="Property Photo Gallery">
         <div class="gallery-grid">
             <div class="gallery-item main-image">
-                <img src="https://images.unsplash.com/photo-1613490493576-7fde63acd811?w=800&q=80" alt="Luxury home exterior at night">
+                <img src="https://images.unsplash.com/photo-1613490493576-7fde63acd811?w=800&q=80" alt="Luxury home exterior at night with illuminated windows and landscaping">
             </div>
             
             <div class="side-images">
                 <div class="gallery-item">
-                    <img src="https://images.unsplash.com/photo-1600210492493-0946911123ea?w=500&q=80" alt="Modern living room">
+                    <img src="https://images.unsplash.com/photo-1600210492493-0946911123ea?w=500&q=80" alt="Modern living room with contemporary furniture and large windows">
                 </div>
                 <div class="gallery-item">
-                    <img src="https://images.unsplash.com/photo-1616594039964-ae9021a400a0?w=500&q=80" alt="Elegant bedroom">
+                    <img src="https://images.unsplash.com/photo-1616594039964-ae9021a400a0?w=500&q=80" alt="Elegant master bedroom with modern decor and natural lighting">
                 </div>
             </div>
         </div>
 
         <div class="bottom-images">
             <div class="gallery-item">
-                <img src="https://images.unsplash.com/photo-1556912173-46c336c7fd55?w=400&q=80" alt="Modern kitchen">
+                <img src="https://images.unsplash.com/photo-1556912173-46c336c7fd55?w=400&q=80" alt="Modern kitchen with granite countertops and stainless steel appliances">
             </div>
             <div class="gallery-item">
-                <img src="https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?w=400&q=80" alt="Living room with view">
+                <img src="https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?w=400&q=80" alt="Spacious living room with panoramic view and modern furnishings">
             </div>
             <div class="gallery-item">
-                <img src="https://images.unsplash.com/photo-1600585154340-be6161a56a0c?w=400&q=80" alt="Bathroom">
-                <div class="see-all-overlay">See All Photos (7)</div>
+                <img src="https://images.unsplash.com/photo-1600585154340-be6161a56a0c?w=400&q=80" alt="Luxurious bathroom with modern fixtures and elegant design">
+                <button class="see-all-overlay" aria-label="View all 7 property photos">See All Photos (7)</button>
             </div>
         </div>
-    </div>
+    </section>
 
     <div class="content-wrapper">
         <div class="main-content">
@@ -123,10 +125,18 @@
                     <span class="featured-badge">Featured</span>
                 </div>
                 <div class="action-icons">
-                    <div class="action-icon" title="Share">↗</div>
-                    <div class="action-icon" title="Favorite">♡</div>
-                    <div class="action-icon" title="Compare">⚖</div>
-                    <div class="action-icon" title="Print">🖨</div>
+                    <button class="action-icon" title="Share property" aria-label="Share this property">
+                        <i class="bi bi-share" aria-hidden="true"></i>
+                    </button>
+                    <button class="action-icon" title="Add to favorites" aria-label="Add to favorites">
+                        <i class="bi bi-heart" aria-hidden="true"></i>
+                    </button>
+                    <button class="action-icon" title="Compare properties" aria-label="Compare with other properties">
+                        <i class="bi bi-arrow-left-right" aria-hidden="true"></i>
+                    </button>
+                    <button class="action-icon" title="Print details" aria-label="Print property details">
+                        <i class="bi bi-printer" aria-hidden="true"></i>
+                    </button>
                 </div>
             </div>
 
@@ -134,21 +144,21 @@
                 <div class="stat-item">
                     <div class="stat-label">Bedrooms</div>
                     <div class="stat-value">
-                        <span class="stat-icon">🛏</span>
+                        <i class="bi bi-house-door stat-icon" aria-hidden="true"></i>
                         <span>3</span>
                     </div>
                 </div>
                 <div class="stat-item">
                     <div class="stat-label">Bathrooms</div>
                     <div class="stat-value">
-                        <span class="stat-icon">🚿</span>
+                        <i class="bi bi-droplet stat-icon" aria-hidden="true"></i>
                         <span>3</span>
                     </div>
                 </div>
                 <div class="stat-item">
                     <div class="stat-label">Area</div>
                     <div class="stat-value">
-                        <span class="stat-icon">📐</span>
+                        <i class="bi bi-arrows-fullscreen stat-icon" aria-hidden="true"></i>
                         <span>4300 Sq Ft</span>
                     </div>
                 </div>
@@ -195,7 +205,7 @@
         <div class="sidebar">
             <div class="agent-card">
                 <div class="agent-photo">
-                    <img src="https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?w=300&q=80" alt="Agent Melissa William">
+                    <img src="https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?w=300&q=80" alt="Professional headshot of Agent Melissa William">
                 </div>
                 <h3 class="agent-name">Agent Melissa William</h3>
                 
@@ -224,23 +234,24 @@
 
                 <button class="view-listings-btn">View My Listings</button>
 
-                <form class="contact-form">
+                <form class="contact-form" aria-label="Contact Agent Form">
                     <div class="form-group">
-                        <label class="form-label">Name</label>
-                        <input type="text" class="form-input" placeholder="Name">
+                        <label class="form-label" for="agent-name">Name</label>
+                        <input type="text" id="agent-name" name="name" class="form-input" placeholder="Your Name" required>
                     </div>
                     <div class="form-group">
-                        <label class="form-label">Email</label>
-                        <input type="email" class="form-input" placeholder="Email">
+                        <label class="form-label" for="agent-email">Email</label>
+                        <input type="email" id="agent-email" name="email" class="form-input" placeholder="Your Email" required>
                     </div>
                     <div class="form-group">
-                        <label class="form-label">Phone</label>
-                        <input type="tel" class="form-input" placeholder="Phone">
+                        <label class="form-label" for="agent-phone">Phone</label>
+                        <input type="tel" id="agent-phone" name="phone" class="form-input" placeholder="Your Phone">
                     </div>
                     <div class="form-group">
-                        <label class="form-label">Message</label>
-                        <textarea class="form-input" placeholder="Hello, I am interested in [Home in Merrick Way]."></textarea>
+                        <label class="form-label" for="agent-message">Message</label>
+                        <textarea id="agent-message" name="message" class="form-input" placeholder="Hello, I am interested in [Home in Merrick Way]." required></textarea>
                     </div>
+                    <button type="submit" class="view-listings-btn">Send Message</button>
                 </form>
             </div>
         </div>

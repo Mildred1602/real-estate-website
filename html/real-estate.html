@@ -3,41 +3,42 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Real Estate Agents - PrimeEdge Realty Group</title>
+    <meta name="description" content="Meet our professional real estate agents at PrimeEdge Realty Group. Expert agents ready to help you buy, sell, or rent properties.">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"/>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.0/font/bootstrap-icons.css" rel="stylesheet" />
     <link rel="stylesheet" href="../css/style.css">
-    
 </head>
-<body>
 <body>
     <header>
    
 <!-- Navbar -->
 <nav class="navbar navbar-expand-lg navbar-light">
-        <!-- ✅ Logo image -->
-        <a class="navbar-brand fw-bold" href="#">
-            <img src="../asset/img/logo-removebg-preview.png" alt="Logo">
+    <div class="container">
+        <!-- Logo image -->
+        <a class="navbar-brand fw-bold" href="index.html" aria-label="PrimeEdge Realty Group Home">
+            <img src="../asset/img/logo-removebg-preview.png" alt="PrimeEdge Realty Group Logo">
         </a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navMenu">
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navMenu" aria-controls="navMenu" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navMenu">
-            <ul class="navbar-nav ms-auto align-items-lg-center" style="color: aliceblue;">
+            <ul class="navbar-nav ms-auto align-items-lg-center">
                 <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+                <li class="nav-item"><a class="nav-link" href="about.html">About Us</a></li>
                 <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown">Real Estate</a>
+                    <a class="nav-link dropdown-toggle active" href="#" data-bs-toggle="dropdown" role="button" aria-expanded="false" aria-current="page">Real Estate</a>
                     <ul class="dropdown-menu">
-                        <li><a class="dropdown-item" href="#">List Layout</a></li>
-                        <li><a class="dropdown-item" href="#">Grid Layout</a></li>
-                        <li><a class="dropdown-item" href="#">Agents</a></li>
+                        <li><a class="dropdown-item" href="real-estate.html">List Layout</a></li>
+                        <li><a class="dropdown-item" href="real-estate.html">Grid Layout</a></li>
+                        <li><a class="dropdown-item" href="real-estate.html">Agents</a></li>
                     </ul>
                 </li>
-                <li class="nav-item"><a class="nav-link" href="#">Property</a></li>
+                <li class="nav-item"><a class="nav-link" href="property.html">Property</a></li>
                 <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
-                <li class="nav-item"><a class="nav-link" href="about.html">About Us</a></li>
                 <li class="nav-item"><a class="nav-link" href="#">Blog</a></li>
                 <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown">Services</a>
+                    <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown" role="button" aria-expanded="false">Services</a>
                     <ul class="dropdown-menu">
                         <li><a class="dropdown-item" href="#">Buying</a></li>
                         <li><a class="dropdown-item" href="#">Selling</a></li>
@@ -46,49 +47,36 @@
                 </li>
                 <!-- Phone + Login buttons -->
                 <li class="nav-item d-none d-lg-block ms-3">
-                    <a class="nav-link btn btn-outline-light" href="tel:+123456789">+1-234-567-89</a>
+                    <a class="nav-link btn btn-outline-light" href="tel:+123456789" aria-label="Call us at +1-234-567-89">+1-234-567-89</a>
                 </li>
                 <li class="nav-item d-none d-lg-block ms-2">
-                    <a class="nav-link btn btn-danger" href="#">Login</a>
+                    <a class="nav-link btn btn-danger" href="LOGIN.HTML">Login</a>
                 </li>
             </ul>
         </div>
     </div>
 </nav>
 </header>
-  <!-- Main content of the page would go here -->
+<!-- Hero Section -->
+<section id="container" aria-label="Real Estate Agents Hero Section">
+    <div id="hero-text">
+        <h1>Our Real Estate Agents</h1>
+    </div>
+    <div id="overlay"></div>
+</section>
+</header>
+
 <main>
-    <div class=" container">
-        <div class="agents-section">
-            <!-- JAMES ESTATE AGENTS -->
-        <div class="agent-card">
-            <div class="agent-header">
-                <div class="agent-logo james-logo">
-                        <svg class="james-logo-icon" viewBox="0 0 100 100" fill="none" stroke="white" stroke-width="2">
-                            <path d="M20 80 L20 40 L35 25 L50 40 L65 25 L80 40 L80 80" />
-                            <path d="M30 70 L30 50 L40 40 L50 50 L60 40 L70 50 L70 70" />
-                            <path d="M40 60 L40 50 L50 40 L60 50 L60 60" />
-                        </svg>
-                        <div>JAMES</div>
-                        <div style="font-size: 9px; margin-top: -5px;">ESTATE AGENTS</div>
-                    </div>
-                    <div class="agent-info">
-                        <div class="agent-title">
-                            <h2>James Estate Agents</h2>
-                        </div>
-                        <div class="social-links">
-                            <a href="#"><i class="fab fa-facebook-f"></i></a>
-                            <a href="#"><i class="fab fa-twitter"></i></a>
-                            <a href="#"><i class="fab fa-linkedin-in"></i></a>
-                            <a href="#"><i class="fab fa-instagram"></i></a>
-                            <a href="#"><i class="fas fa-globe"></i></a>
-                            <a href="#"><i class="fab fa-youtube"></i></a>
-                            <a href="#"><i class="fab fa-pinterest"></i></a>
-                        </div>
-                    </div>
-
+    <section class="agencies-section" aria-labelledby="agencies-heading">
+        <div class="container">
+            <h2 id="agencies-heading">Meet Our Professional Agents</h2>
+            <p class="text-center mb-5">Our experienced team of real estate professionals is here to help you with all your property needs.</p>
+            
+            <div class="agencies-grid">
+                <!-- James Estate Agents -->
+                <article class="agency-card">
                     <div class="agent-logo james-logo">
-                        <svg class="james-logo-icon" viewBox="0 0 100 100" fill="none" stroke="white" stroke-width="2">
+                        <svg class="james-logo-icon" viewBox="0 0 100 100" fill="none" stroke="white" stroke-width="2" aria-hidden="true">
                             <path d="M20 80 L20 40 L35 25 L50 40 L65 25 L80 40 L80 80" />
                             <path d="M30 70 L30 50 L40 40 L50 50 L60 40 L70 50 L70 70" />
                             <path d="M40 60 L40 50 L50 40 L60 50 L60 60" />
@@ -96,45 +84,18 @@
                         <div>JAMES</div>
                         <div style="font-size: 9px; margin-top: -5px;">ESTATE AGENTS</div>
                     </div>
-                    <div class="agent-info">
-                        <div class="agent-title">
-                            <h2>James Estate Agents</h2>
-                        </div>
-                        <div class="social-links">
-                            <a href="#"><i class="fab fa-facebook-f"></i></a>
-                            <a href="#"><i class="fab fa-twitter"></i></a>
-                            <a href="#"><i class="fab fa-linkedin-in"></i></a>
-                            <a href="#"><i class="fab fa-instagram"></i></a>
-                            <a href="#"><i class="fas fa-globe"></i></a>
-                            <a href="#"><i class="fab fa-youtube"></i></a>
-                            <a href="#"><i class="fab fa-pinterest"></i></a>
-                        </div>
+                    <h3>James Estate Agents</h3>
+                    <p>Capitalize on low hanging fruit to identify a ballpark value added activity to beta test. Override the digital divide with additional clickthroughs from DevOps.</p>
+                    <div class="contact-info">
+                        <p><strong>Office:</strong> <a href="tel:12223335555">1-222-333-5555</a></p>
+                        <p><strong>Mobile:</strong> <a href="tel:12223334444">1-222-333-4444</a></p>
+                        <p><strong>Email:</strong> <a href="mailto:james@primeedgerealty.com">james@primeedgerealty.com</a></p>
                     </div>
+                    <a href="contact.html" class="btn btn-primary">Contact Agent</a>
+                </article>
 
-
-<div class="listed-properties">
-                        <div class="listed-properties-label">Listed Properties</div>
-                        <div class="listed-properties-count">7</div>
-                    </div>
-                </div>
-                <p class="agent-description">
-                    Capitalize on low hanging fruit to identify a ballpark value added activity to beta test. Override the digital divide with additional clickthroughs from DevOps. Nanotechnology immersion along the information highway will close the loop on focusing solely on the bottom line. Podcasting operational change management...
-                </p>
-                <div class="contact-info">
-                    <div class="contact-item"><strong>Office:</strong> 1-222-333-5555</div>
-                    <div class="contact-item"><strong>Mobile:</strong> 1-222-333-4444</div>
-                    <div class="contact-item"><strong>WhatsApp:</strong> 1-234-555-6666</div>
-                    <div class="contact-item"><strong>Fax:</strong> 1-444-333-1234</div>
-                </div>
-                <div class="contact-info">
-                    <div class="contact-item"><strong>Email:</strong> robot@inspirythemes.com</div>
-                </div>
-                <a href="#" class="know-more-btn">Know More <i class="fas fa-arrow-right"></i></a>
-            </div>
-
-            <!-- Alice Estate Agency -->
-            <div class="agent-card">
-                <div class="agent-header">
+                <!-- Alice Estate Agency -->
+                <article class="agency-card">
                     <div class="agent-logo alice-logo">
                         <div class="alice-logo-inner">
                             <div class="alice-triangle"></div>
@@ -144,110 +105,32 @@
                             </div>
                         </div>
                     </div>
+                    <h3>Alice Estate Agency <i class="bi bi-check-circle-fill text-success" aria-label="Verified agent"></i></h3>
+                    <p>Alice is a broker associate and Realtor. She is dedicated to helping buyers and sellers throughout the city, discovering and sharing community resources.</p>
+                    <div class="contact-info">
+                        <p><strong>Office:</strong> <a href="tel:12223334444">1-222-333-4444</a></p>
+                        <p><strong>Mobile:</strong> <a href="tel:12344567891">1-234-456-7891</a></p>
+                        <p><strong>Email:</strong> <a href="mailto:alice@primeedgerealty.com">alice@primeedgerealty.com</a></p>
+                    </div>
+                    <a href="contact.html" class="btn btn-primary">Contact Agent</a>
+                </article>
 
-                    <div class="agent-info">
-                        <div class="agent-title">
-                            <h2>Alice Estate Agency</h2>
-                            <span class="verified-badge"><i class="fas fa-check"></i></span>
-                        </div>
-                        <div class="social-links">
-                            <a href="#"><i class="fab fa-facebook-f"></i></a>
-                            <a href="#"><i class="fab fa-twitter"></i></a>
-                            <a href="#"><i class="fab fa-linkedin-in"></i></a>
-                            <a href="#"><i class="fab fa-instagram"></i></a>
-                            <a href="#"><i class="fas fa-globe"></i></a>
-                            <a href="#"><i class="fab fa-youtube"></i></a>
-                            <a href="#"><i class="fab fa-pinterest"></i></a>
-                        </div>
+                <!-- Additional Agent -->
+                <article class="agency-card">
+                    <img src="../asset/img/jason lee.webp" alt="Professional headshot of Jason Lee">
+                    <h3>Jason Lee Real Estate</h3>
+                    <p>With over 15 years of experience in luxury properties and commercial real estate, Jason provides expert guidance for high-value transactions.</p>
+                    <div class="contact-info">
+                        <p><strong>Office:</strong> <a href="tel:12223336666">1-222-333-6666</a></p>
+                        <p><strong>Mobile:</strong> <a href="tel:12344567892">1-234-456-7892</a></p>
+                        <p><strong>Email:</strong> <a href="mailto:jason@primeedgerealty.com">jason@primeedgerealty.com</a></p>
                     </div>
-                    <div class="listed-properties">
-                        <div class="listed-properties-label">Listed Properties</div>
-                        <div class="listed-properties-count">7</div>
-                    </div>
-                </div>
-                <p class="agent-description">
-                    Alice is a broker associate and Realtor. She is dedicated in helping buyers and sellers throughout the city. She enjoys the local aspect of real estate, spending time discovering and sharing the city community with her clients, including parks, neighbourhoods, changing trends and resources like...
-                </p>
-                <div class="contact-info">
-                    <div class="contact-item"><strong>Office:</strong> 1-222-333-4444</div>
-                    <div class="contact-item"><strong>Mobile:</strong> 1-234-456-7891</div>
-                </div>
+                    <a href="contact.html" class="btn btn-primary">Contact Agent</a>
+                </article>
             </div>
         </div>
-
-        <!-- Featured Properties Sidebar -->
-        <div class="featured-section">
-            <h3 class="featured-title">Featured Properties</h3>
-            
-            <div class="property-card">
-                <div class="property-image">
-                    <img src="https://images.unsplash.com/photo-1613490493576-7fde63acd811?w=800&h=600&fit=crop" alt="Villa on Grand Avenue">
-                    <div class="property-badges">
-                        <span class="badge badge-featured">Featured</span>
-                        <span class="badge badge-trendy">Trendy</span>
-                    </div>
-                    <div class="property-actions">
-                        <button class="action-btn"><i class="far fa-heart"></i></button>
-                        <button class="action-btn"><i class="fas fa-share-alt"></i></button>
-                    </div>
-                </div>
-
-            </div>
-               
-        </div>   
-        
-        <div class="property-details">
-                    <h4 class="property-title">Villa on Grand Avenue</h4>
-                    <p class="property-description">
-                        Spacious and fabulous home in a prime location. This executive...
-                    </p>
-                    <div class="property-specs">
-                        <div class="spec">
-                            <div class="spec-label">Bedrooms</div>
-                            <div class="spec-value">
-                                <i class="fas fa-bed spec-icon"></i>
-                                <span>4</span>
-                            </div>
-                        </div>
-                        <div class="spec">
-                            <div class="spec-label">Bathrooms</div>
-                            <div class="spec-value">
-                                <i class="fas fa-bath spec-icon"></i>
-                                <span>4</span>
-                            </div>
-                        </div>
-                        <div class="spec">
-                            <div class="spec-label">Area</div>
-                            <div class="spec-value">
-                                <i class="fas fa-ruler-combined spec-icon"></i>
-                                <span>9350 Sq Ft</span>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="property-price">
-                        <div class="price-label">For Rent</div>
-                        <div class="price-value">$4,750 Monthly</div>
-                    </div>
-                </div>
-            </div>
-
-            <div class="property-card">
-                <div class="property-image">
-                    <img src="https://images.unsplash.com/photo-1600596542815-ffad4c1539a9?w=800&h=600&fit=crop" alt="Modern House">
-                    <div class="property-badges">
-                        <span class="badge badge-featured">Featured</span>
-                    </div>
-                    <div class="property-actions">
-                        <button class="action-btn"><i class="far fa-heart"></i></button>
-                        <button class="action-btn"><i class="fas fa-share-alt"></i></button>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div >
+    </section>
 </main>
-
-</section>
 
 
 

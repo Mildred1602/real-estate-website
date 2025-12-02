@@ -4,7 +4,8 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>RealHomes-style Slider + Navbar + Form</title>
+  <title>Contact Us - PrimeEdge Realty Group</title>
+  <meta name="description" content="Get in touch with PrimeEdge Realty Group. Contact our expert team for all your real estate needs. Phone, email, and office location details.">
   <!-- <link rel="stylesheet" href="../Real Estate/css/style.css"> -->
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" />
   <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.0/font/bootstrap-icons.css" rel="stylesheet" />
@@ -23,30 +24,30 @@
     <!-- Navbar -->
     <nav class="navbar navbar-expand-lg navbar-light">
       <div class="container">
-        <!-- ✅ Logo image -->
-        <a class="navbar-brand fw-bold" href="#">
-          <img src="../asset/img/logo-removebg-preview.png" alt="Logo">
+        <!-- Logo image -->
+        <a class="navbar-brand fw-bold" href="index.html" aria-label="PrimeEdge Realty Group Home">
+          <img src="../asset/img/logo-removebg-preview.png" alt="PrimeEdge Realty Group Logo">
         </a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navMenu">
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navMenu" aria-controls="navMenu" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navMenu">
           <ul class="navbar-nav ms-auto align-items-lg-center">
             <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+            <li class="nav-item"><a class="nav-link" href="about.html">About Us</a></li>
             <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown">Real Estate</a>
+              <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown" role="button" aria-expanded="false">Real Estate</a>
               <ul class="dropdown-menu">
-                <li><a class="dropdown-item" href="#">List Layout</a></li>
-                <li><a class="dropdown-item" href="#">Grid Layout</a></li>
-                <li><a class="dropdown-item" href="#">Agents</a></li>
+                <li><a class="dropdown-item" href="real-estate.html">List Layout</a></li>
+                <li><a class="dropdown-item" href="real-estate.html">Grid Layout</a></li>
+                <li><a class="dropdown-item" href="real-estate.html">Agents</a></li>
               </ul>
             </li>
-            <li class="nav-item"><a class="nav-link" href="#">Property</a></li>
-            <li class="nav-item"><a class="nav-link" href="#">Contact</a></li>
-            <li class="nav-item"><a class="nav-link" href="about.html">About Us</a></li>
+            <li class="nav-item"><a class="nav-link" href="property.html">Property</a></li>
+            <li class="nav-item"><a class="nav-link active" href="contact.html" aria-current="page">Contact</a></li>
             <li class="nav-item"><a class="nav-link" href="#">Blog</a></li>
             <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown">Services</a>
+              <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown" role="button" aria-expanded="false">Services</a>
               <ul class="dropdown-menu">
                 <li><a class="dropdown-item" href="#">Buying</a></li>
                 <li><a class="dropdown-item" href="#">Selling</a></li>
@@ -55,10 +56,10 @@
             </li>
             <!-- Phone + Login buttons -->
             <li class="nav-item d-none d-lg-block ms-3">
-              <a class="nav-link btn btn-outline-light" href="tel:+123456789">+1-234-567-89</a>
+              <a class="nav-link btn btn-outline-light" href="tel:+123456789" aria-label="Call us at +1-234-567-89">+1-234-567-89</a>
             </li>
             <li class="nav-item d-none d-lg-block ms-2">
-              <a class="nav-link btn btn-danger" href="#">Login</a>
+              <a class="nav-link btn btn-danger" href="LOGIN.HTML">Login</a>
             </li>
           </ul>
         </div>
@@ -67,165 +68,149 @@
 
 
         <!-- Carousel Slider -->
-    <div id="heroCarousel" class="carousel slide" data-bs-ride="carousel">
+    <div id="heroCarousel" class="carousel slide" data-bs-ride="carousel" aria-label="Contact page hero carousel">
       <div class="carousel-inner">
-        <div class="carousel-item active" style="background-image: url('../asset/img/slider1.jpg');"></div>
-        <div class="carousel-item"
-          style="background-image: url('../asset/img/GettyImages-157382018-mortgagesguild-mortgage.jpg');"></div>
-        <div class="carousel-item" style="background-image: url('../asset/img/slider3.jpg');"></div>
+        <div class="carousel-item active" style="background-image: url('../asset/img/slider1.jpg');" aria-label="Modern office building"></div>
+        <div class="carousel-item" style="background-image: url('../asset/img/GettyImages-157382018-mortgagesguild-mortgage.jpg');" aria-label="Real estate consultation"></div>
+        <div class="carousel-item" style="background-image: url('../asset/img/slider3.jpg');" aria-label="Luxury property exterior"></div>
       </div>
-      <button class="carousel-control-prev" type="button" data-bs-target="#heroCarousel" data-bs-slide="prev">
-        <span class="carousel-control-prev-icon"></span>
+      <button class="carousel-control-prev" type="button" data-bs-target="#heroCarousel" data-bs-slide="prev" aria-label="Previous slide">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
       </button>
-      <button class="carousel-control-next" type="button" data-bs-target="#heroCarousel" data-bs-slide="next">
-        <span class="carousel-control-next-icon"></span>
+      <button class="carousel-control-next" type="button" data-bs-target="#heroCarousel" data-bs-slide="next" aria-label="Next slide">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
       </button>
     </div>
-
-
-
-
-    
-
 
     <!-- Advanced Search Card -->
     <div class="search-wrapper container">
       <div class="card search-card shadow-lg">
         <div class="card-body">
-          <form class="row g-3 align-items-end">
+          <form class="row g-3 align-items-end" aria-label="Property search form">
             <div class="col-md-3">
-              <label class="form-label fw-semibold">Location</label>
-              <select class="form-select">
+              <label class="form-label fw-semibold" for="location-select">Location</label>
+              <select class="form-select" id="location-select" name="location">
                 <option selected>All Locations</option>
-                <option>toronto</option>
-                <option>los vegas</option>
-                <option>miami</option>
+                <option value="toronto">Toronto</option>
+                <option value="las-vegas">Las Vegas</option>
+                <option value="miami">Miami</option>
               </select>
             </div>
             <div class="col-md-3">
-              <label class="form-label fw-semibold">Property Status</label>
-              <select class="form-select">
+              <label class="form-label fw-semibold" for="status-select">Property Status</label>
+              <select class="form-select" id="status-select" name="status">
                 <option selected>Any</option>
-                <option>For Sale</option>
-                <option>For Rent</option>
+                <option value="sale">For Sale</option>
+                <option value="rent">For Rent</option>
               </select>
             </div>
             <div class="col-md-3">
-              <label class="form-label fw-semibold">Property Type</label>
-              <select class="form-select">
+              <label class="form-label fw-semibold" for="type-select">Property Type</label>
+              <select class="form-select" id="type-select" name="type">
                 <option selected>All Types</option>
-                <option>Apartment</option>
-                <option>House</option>
-                <option>Land</option>
+                <option value="apartment">Apartment</option>
+                <option value="house">House</option>
+                <option value="land">Land</option>
               </select>
             </div>
             <div class="col-md-3 d-grid mt-2">
-              <button type="submit" class="btn btn-danger fw-semibold">Advance Search</button>
+              <button type="submit" class="btn btn-danger fw-semibold">Advanced Search</button>
             </div>
           </form>
         </div>
       </div>
     </div>
 
-  </header>
-    <br><br>  
+  </header>  
     
     
     <main>
-         <div class="contact-container">
-        <div class="contact-grid">
-            <!-- Form Section -->
-            <div class="form-section">
-                <form>
-                    <div class="form-group">
-                        <label for="name">Name</label>
-                        <input type="text" id="name" name="name" placeholder="Your Name">
-                    </div>
+        <section class="contact-container" aria-labelledby="contact-heading">
+            <h1 id="contact-heading" class="visually-hidden">Contact Us</h1>
+            <div class="contact-grid">
+                <!-- Form Section -->
+                <div class="form-section">
+                    <h2>Get In Touch</h2>
+                    <form aria-label="Contact form">
+                        <div class="form-group">
+                            <label for="name">Name <span class="required">*</span></label>
+                            <input type="text" id="name" name="name" placeholder="Your Name" required>
+                        </div>
 
-                    <div class="form-group">
-                        <label for="email">Email</label>
-                        <input type="email" id="email" name="email" placeholder="Your Email">
-                    </div>
+                        <div class="form-group">
+                            <label for="email">Email <span class="required">*</span></label>
+                            <input type="email" id="email" name="email" placeholder="Your Email" required>
+                        </div>
 
-                    <div class="form-group">
-                        <label for="phone">Phone Number</label>
-                        <input type="tel" id="phone" name="phone" placeholder="Your Phone">
-                    </div>
+                        <div class="form-group">
+                            <label for="phone">Phone Number</label>
+                            <input type="tel" id="phone" name="phone" placeholder="Your Phone">
+                        </div>
 
-                    <div class="form-group">
-                        <label for="message">Message</label>
-                        <textarea id="message" name="message" placeholder="Your Message"></textarea>
-                    </div>
+                        <div class="form-group">
+                            <label for="message">Message <span class="required">*</span></label>
+                            <textarea id="message" name="message" placeholder="Your Message" required></textarea>
+                        </div>
 
-                    <div class="gdpr-section">
-                        <label class="gdpr-label">GDPR Agreement <span class="required">*</span></label>
-                        <div class="checkbox-wrapper">
-                            <input type="checkbox" id="gdpr" name="gdpr" required>
-                            <label for="gdpr" class="checkbox-label">
-                                I consent to having this website store my submitted information so they can respond to my inquiry.
-                            </label>
+                        <div class="gdpr-section">
+                            <label class="gdpr-label">GDPR Agreement <span class="required">*</span></label>
+                            <div class="checkbox-wrapper">
+                                <input type="checkbox" id="gdpr" name="gdpr" required>
+                                <label for="gdpr" class="checkbox-label">
+                                    I consent to having this website store my submitted information so they can respond to my inquiry.
+                                </label>
+                            </div>
+                        </div>
+
+                        <button type="submit" class="submit-btn">Send Message</button>
+                    </form>
+                </div>
+
+                <!-- Contact Info Section -->
+                <div class="info-section">
+                    <h2>Contact Information</h2>
+                    <div class="info-item">
+                        <i class="bi bi-telephone info-icon" aria-hidden="true"></i>
+                        <div class="info-content">
+                            <h3>Phone</h3>
+                            <p><a href="tel:+123456789">+123-456-789</a></p>
                         </div>
                     </div>
 
-                    <button type="submit" class="submit-btn">Send Message</button>
-                </form>
-            </div>
-
-            <!-- Contact Info Section -->
-            <div class="info-section">
-                <div class="info-item">
-                    <svg class="info-icon" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z"/>
-                    </svg>
-                    <div class="info-content">
-                        <h3>Phone</h3>
-                        <p>+123-456-789</p>
+                    <div class="info-item">
+                        <i class="bi bi-phone info-icon" aria-hidden="true"></i>
+                        <div class="info-content">
+                            <h3>Mobile</h3>
+                            <p><a href="tel:+133456787">+133-456-787</a></p>
+                        </div>
                     </div>
-                </div>
 
-                <div class="info-item">
-                    <svg class="info-icon" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 18h.01M8 21h8a2 2 0 002-2V5a2 2 0 00-2-2H8a2 2 0 00-2 2v14a2 2 0 002 2z"/>
-                    </svg>
-                    <div class="info-content">
-                        <h3>Mobile</h3>
-                        <p>+133-456-787</p>
+                    <div class="info-item">
+                        <i class="bi bi-printer info-icon" aria-hidden="true"></i>
+                        <div class="info-content">
+                            <h3>Fax</h3>
+                            <p>+122-456-788</p>
+                        </div>
                     </div>
-                </div>
 
-                <div class="info-item">
-                    <svg class="info-icon" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M7 8h10M7 12h4m1 8l-4-4H5a2 2 0 01-2-2V6a2 2 0 012-2h14a2 2 0 012 2v8a2 2 0 01-2 2h-3l-4 4z"/>
-                    </svg>
-                    <div class="info-content">
-                        <h3>Fax</h3>
-                        <p>+122-456-788</p>
+                    <div class="info-item">
+                        <i class="bi bi-envelope info-icon" aria-hidden="true"></i>
+                        <div class="info-content">
+                            <h3>Email</h3>
+                            <p><a href="mailto:sales@primeedgerealty.com">sales@primeedgerealty.com</a></p>
+                        </div>
                     </div>
-                </div>
 
-                <div class="info-item">
-                    <svg class="info-icon" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"/>
-                    </svg>
-                    <div class="info-content">
-                        <h3>Email</h3>
-                        <p>sales@yourwebsite.com</p>
-                    </div>
-                </div>
-
-                <div class="info-item">
-                    <svg class="info-icon" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"/>
-                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"/>
-                    </svg>
-                    <div class="info-content">
-                        <h3>Address</h3>
-                        <p>3015 Grand Ave, Coconut Grove, Merrick Way, FL 12345</p>
+                    <div class="info-item">
+                        <i class="bi bi-geo-alt info-icon" aria-hidden="true"></i>
+                        <div class="info-content">
+                            <h3>Address</h3>
+                            <p>3015 Grand Ave, Coconut Grove, Merrick Way, FL 12345</p>
+                        </div>
                     </div>
                 </div>
             </div>
-        </div>
-    </div>
+        </section>
     </main>
 
   <!-- footer section -->
