@@ -398,7 +398,7 @@ main {
   font-size: 3rem;
 }
 
-.properties-container {
+/* .properties-container {
   display: flex;
   flex-wrap: wrap;
   gap: 24px;
@@ -407,7 +407,7 @@ main {
 .property-card {
   flex: 1 1 calc(33.333% - 16px);
   min-width: 300px;
-}
+} */
 
 .property-card:hover {
   transform: translateY(-5px);
@@ -1446,10 +1446,7 @@ img {
             .history-content {
                 padding: 20px 15px;
             }
-        }* {
-  margin: 0;
-  padding: 0;
-}
+        }
 
 #container {
   width: 100vw;
@@ -1935,14 +1932,7 @@ img {
         /* REAL-ESTATE SECTION */
 
 
-        .container {
-            max-width: 1400px;
-            margin: 0 auto;
-            padding: 40px 20px;
-            display: grid;
-            grid-template-columns: 1fr 400px;
-            gap: 40px;
-        }
+
         .agents-section {
             display: flex;
             flex-direction: column;
