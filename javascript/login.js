@@ -35,3 +35,21 @@ const formContainer = document.getElementById('formContainer');
             alert('Registration functionality would be connected to your backend here');
             console.log('Register:', { name, email, phone, password });
         });
+// real-estate section
+ <!-- INTERNAL JS -->
+  <script>
+    document.getElementById("addAgencyBtn").addEventListener("click", function () {
+      const container = document.getElementById("agencyContainer");
+
+      const newCard = `
+        <div class="col-md-4">
+          <div class="agency-card shadow-sm p-4 text-center">
+            <img src="https://via.placeholder.com/120" class="agency-logo mb-3" alt="Agency Logo">
+            <h5 class="fw-bold mb-2">New Partner Agency</h5>
+            <p class="text-muted">Description of the newly added partner agency.</p>
+          </div>
+        </div>
+      `;
+      container.insertAdjacentHTML("beforeend", newCard);
+    });
+  </script>
