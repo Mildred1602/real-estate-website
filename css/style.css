@@ -398,11 +398,15 @@ main {
   font-size: 3rem;
 }
 
+.properties-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 24px;
+}
+
 .property-card {
-  background: #fff;
-  border-radius: 10px;
-  overflow: hidden;
-  transition: all 0.3s ease;
+  flex: 1 1 calc(33.333% - 16px);
+  min-width: 300px;
 }
 
 .property-card:hover {
