@@ -1456,6 +1456,17 @@ img {
   position: relative;
 }
 
+/* Property page hero */
+.hero-property {
+  background: center / cover no-repeat url("../asset/img/luxury home 1.webp") !important;
+}
+
+/* About page hero */
+.hero-about {
+  background: center / cover no-repeat url("../asset/img/sales 2.jpg") !important;
+}
+
+
 #hero-text {
   z-index: 1;
   position: relative;
