@@ -48,3 +48,4 @@ const slides = document.querySelectorAll('.slide');
 
     // Initialize auto-play
     slideInterval = setInterval(nextSlide, 3000);
+    
