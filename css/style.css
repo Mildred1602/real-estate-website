@@ -1460,7 +1460,10 @@ img {
 .hero-property {
   background: center / cover no-repeat url("../asset/img/luxury home 1.webp") !important;
 }
-
+ /* Property page hero */
+.hero-blog {
+  background: center / cover no-repeat url("../asset/img/luxury home 1.webp") !important;
+}
 /* About page hero */
 .hero-about {
   background: center / cover no-repeat url("../asset/img/sales 2.jpg") !important;
@@ -2223,4 +2226,3 @@ img {
                 flex-direction: column;
             }
         }
-        
