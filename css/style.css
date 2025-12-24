@@ -1468,9 +1468,7 @@ img {
 .hero-about {
   background: center / cover no-repeat url("../asset/img/sales 2.jpg") !important;
 }
-.hero-blog  {
-  background: center / cover no-repeat url("../asset/img/slider3.jpgF") !important;
-}
+
 
 #hero-text {
   z-index: 1;
