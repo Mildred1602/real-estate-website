@@ -12,29 +12,50 @@
 
 <body>
 
-<!-- NAVBAR (UNCHANGED) -->
-<header>
-  <nav class="navbar navbar-expand-lg navbar-light">
+<!-- Navbar -->
+<nav class="navbar navbar-expand-lg navbar-light">
     <div class="container">
-      <a class="navbar-brand fw-bold" href="index.html">
-        <img src="../asset/img/logo-removebg-preview.png" alt="PrimeEdge Realty Group Logo">
-      </a>
-
-      <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navMenu">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-
-      <div class="collapse navbar-collapse" id="navMenu">
-        <ul class="navbar-nav ms-auto">
-          <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
-          <li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
-          <li class="nav-item"><a class="nav-link active" href="#">Blog</a></li>
-          <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
-        </ul>
-      </div>
+        <!-- Logo image -->
+        <a class="navbar-brand fw-bold" href="index.html" aria-label="PrimeEdge Realty Group Home">
+            <img src="../asset/img/logo-removebg-preview.png" alt="PrimeEdge Realty Group Logo">
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navMenu" aria-controls="navMenu" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navMenu">
+            <ul class="navbar-nav ms-auto align-items-lg-center">
+                <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+                <li class="nav-item"><a class="nav-link active" href="about.html" aria-current="page">About Us</a></li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown" role="button" aria-expanded="false">Real Estate</a>
+                    <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" href="real-estate.html">List Layout</a></li>
+                        <li><a class="dropdown-item" href="real-estate.html">Grid Layout</a></li>
+                        <li><a class="dropdown-item" href="real-estate.html">Agents</a></li>
+                    </ul>
+                </li>
+                <li class="nav-item"><a class="nav-link" href="property.html">Property</a></li>
+                <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+                <li class="nav-item"><a class="nav-link" href="blog.html">Blog</a></li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown" role="button" aria-expanded="false">Services</a>
+                    <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" href="#">Buying</a></li>
+                        <li><a class="dropdown-item" href="#">Selling</a></li>
+                        <li><a class="dropdown-item" href="#">Consulting</a></li>
+                    </ul>
+                </li>
+                <!-- Phone + Login buttons -->
+                <li class="nav-item d-none d-lg-block ms-3">
+                    <a class="nav-link btn btn-outline-light" href="tel:+123456789" aria-label="Call us at +1-234-567-89">+1-234-567-89</a>
+                </li>
+                <li class="nav-item d-none d-lg-block ms-2">
+                    <a class="nav-link btn btn-danger" href="LOGIN.HTML">Login</a>
+                </li>
+            </ul>
+        </div>
     </div>
-  </nav>
-
+</nav>
   <!-- HERO -->
   <section class="hero-blog position-relative text-white text-center">
     <div class="container py-5">
